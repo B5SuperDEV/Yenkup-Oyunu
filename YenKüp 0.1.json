@@ -7,7 +7,7 @@
     "revision": 0
   },
   "properties": {
-    "adaptGameResolutionAtRuntime": true,
+    "adaptGameResolutionAtRuntime": false,
     "antialiasingMode": "MSAA",
     "antialisingEnabledOnMobile": true,
     "folderProject": false,
@@ -16,48 +16,48 @@
     "pixelsRounding": false,
     "projectUuid": "4d7d1900-a745-472b-ab26-51494e32dded",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "",
+    "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "useExternalSourceFiles": false,
-    "version": "0.8.0",
+    "version": "0.9.0",
     "name": "Yenküp",
     "description": "Bu oyunda sen sirin bir küpsün ve amacin kiymali pideleri yemek :) .Aman düsmalardan kac!",
     "author": "Akif Kudret Yasar",
     "windowWidth": 1280,
-    "windowHeight": 720,
+    "windowHeight": 780,
     "latestCompilationDirectory": "",
     "maxFPS": 100,
     "minFPS": 20,
     "verticalSync": false,
     "platformSpecificAssets": {
-      "android-icon-144": "android-icon-144.png",
-      "android-icon-192": "android-icon-192.png",
-      "android-icon-36": "android-icon-36.png",
-      "android-icon-48": "android-icon-48.png",
-      "android-icon-72": "android-icon-72.png",
-      "android-icon-96": "android-icon-96.png",
-      "android-windowSplashScreenAnimatedIcon": "android-windowSplashScreenAnimatedIcon.png",
-      "desktop-icon-512": "desktop-icon-512.png",
-      "ios-icon-100": "ios-icon-100.png",
-      "ios-icon-1024": "ios-icon-1024.png",
-      "ios-icon-114": "ios-icon-114.png",
-      "ios-icon-120": "ios-icon-120.png",
-      "ios-icon-144": "ios-icon-144.png",
-      "ios-icon-152": "ios-icon-152.png",
-      "ios-icon-167": "ios-icon-167.png",
-      "ios-icon-180": "ios-icon-180.png",
-      "ios-icon-20": "ios-icon-20.png",
-      "ios-icon-29": "ios-icon-29.png",
-      "ios-icon-40": "ios-icon-40.png",
-      "ios-icon-50": "ios-icon-50.png",
-      "ios-icon-57": "ios-icon-57.png",
-      "ios-icon-58": "ios-icon-58.png",
-      "ios-icon-60": "ios-icon-60.png",
-      "ios-icon-72": "ios-icon-72.png",
-      "ios-icon-76": "ios-icon-76.png",
-      "ios-icon-80": "ios-icon-80.png",
-      "ios-icon-87": "ios-icon-87.png",
-      "liluo-thumbnail": "assets\\Yenküp.png"
+      "android-icon-144": "assets\\Ikon\\android-icon-144.png",
+      "android-icon-192": "assets\\Ikon\\android-icon-192.png",
+      "android-icon-36": "assets\\Ikon\\android-icon-36.png",
+      "android-icon-48": "assets\\Ikon\\android-icon-48.png",
+      "android-icon-72": "assets\\Ikon\\android-icon-72.png",
+      "android-icon-96": "assets\\Ikon\\android-icon-96.png",
+      "android-windowSplashScreenAnimatedIcon": "assets\\Ikon\\android-windowSplashScreenAnimatedIcon.png",
+      "desktop-icon-512": "assets\\Ikon\\desktop-icon-512.png",
+      "ios-icon-100": "assets\\Ikon\\ios-icon-100.png",
+      "ios-icon-1024": "assets\\Ikon\\ios-icon-1024.png",
+      "ios-icon-114": "assets\\Ikon\\ios-icon-114.png",
+      "ios-icon-120": "assets\\Ikon\\ios-icon-120.png",
+      "ios-icon-144": "assets\\Ikon\\android-icon-144.png",
+      "ios-icon-152": "assets\\Ikon\\ios-icon-152.png",
+      "ios-icon-167": "assets\\Ikon\\ios-icon-167.png",
+      "ios-icon-180": "assets\\Ikon\\ios-icon-180.png",
+      "ios-icon-20": "assets\\Ikon\\ios-icon-20.png",
+      "ios-icon-29": "assets\\Ikon\\ios-icon-29.png",
+      "ios-icon-40": "assets\\Ikon\\ios-icon-40.png",
+      "ios-icon-50": "assets\\Ikon\\ios-icon-50.png",
+      "ios-icon-57": "assets\\Ikon\\ios-icon-57.png",
+      "ios-icon-58": "assets\\Ikon\\ios-icon-58.png",
+      "ios-icon-60": "assets\\Ikon\\ios-icon-60.png",
+      "ios-icon-72": "assets\\Ikon\\ios-icon-72.png",
+      "ios-icon-76": "assets\\Ikon\\ios-icon-76.png",
+      "ios-icon-80": "assets\\Ikon\\ios-icon-80.png",
+      "ios-icon-87": "assets\\Ikon\\ios-icon-87.png",
+      "liluo-thumbnail": "assets\\Ikon\\Yenküp.png"
     },
     "loadingScreen": {
       "backgroundColor": 566528,
@@ -163,73 +163,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Ricroll.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Ricroll.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Rickroll2.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Rickroll2.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Rickroll3.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Rickroll3.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tank Bullet 3.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Tank Bullet 3.png\",\"extension\":\".png\"}",
-        "name": "Tank Bullet 3.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tank pack (80 assets)/Projectile/f455bb67534554c314c6a35a42c9227a039a73b9400bcf5617d960fe25d4d43e_Tank Bullet 3.png",
-          "name": "Tank Bullet 3.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/TankABD.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\TankABD.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/TankSSCB.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/TankSSCB.png\",\"extension\":\".png\"}",
-        "name": "assets\\TankSSCB.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Retry Button.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Retry Button.png\",\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\Retry Button.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Yenküp.png",
         "kind": "image",
         "metadata": "",
@@ -245,51 +178,6 @@
         "name": "assets\\Pide.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Diken (1).png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Diken (1).png\",\"extension\":\".png\"}",
-        "name": "assets\\Diken (1).png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Diken (2).png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Diken (2).png\",\"extension\":\".png\"}",
-        "name": "assets\\Diken (2).png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Diken (3).png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Diken (3).png\",\"extension\":\".png\"}",
-        "name": "assets\\Diken (3).png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/TuglaYan.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/TuglaYan.png\",\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\TuglaYan.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/GizliYerKup.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\GizliYerKup.png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "file": "Muzik/huge-explosion-87823.mp3",
@@ -312,29 +200,10 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
-        "file": "assets/Yasak Alan.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Yasak Alan.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
         "file": "Muzik/Windows XP Critical Stop.mp3",
         "kind": "audio",
         "metadata": "",
         "name": "Muzik\\Windows XP Critical Stop.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "Muzik/rickroll-but-short.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Muzik\\rickroll-but-short.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -362,496 +231,962 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Tank Bullet 4.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Tank Bullet 4.png\",\"extension\":\".png\"}",
-        "name": "assets\\Tank Bullet 4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/desktop-icon-512.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/desktop-icon-512.png\"}",
-        "name": "desktop-icon-512.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/android-icon-192.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-192.png\"}",
-        "name": "android-icon-192.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/android-icon-144.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-144.png\"}",
-        "name": "android-icon-144.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/android-icon-96.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-96.png\"}",
-        "name": "android-icon-96.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/android-icon-72.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-72.png\"}",
-        "name": "android-icon-72.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/android-icon-48.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-48.png\"}",
-        "name": "android-icon-48.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/android-icon-36.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-icon-36.png\"}",
-        "name": "android-icon-36.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/android-windowSplashScreenAnimatedIcon.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/android-windowSplashScreenAnimatedIcon.png\"}",
-        "name": "android-windowSplashScreenAnimatedIcon.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/ios-icon-1024.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-1024.png\"}",
-        "name": "ios-icon-1024.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/ios-icon-180.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-180.png\"}",
-        "name": "ios-icon-180.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/ios-icon-167.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-167.png\"}",
-        "name": "ios-icon-167.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/ios-icon-152.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-152.png\"}",
-        "name": "ios-icon-152.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/ios-icon-144.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-144.png\"}",
-        "name": "ios-icon-144.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/ios-icon-120.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-120.png\"}",
-        "name": "ios-icon-120.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/ios-icon-114.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-114.png\"}",
-        "name": "ios-icon-114.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/ios-icon-100.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-100.png\"}",
-        "name": "ios-icon-100.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/ios-icon-87.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-87.png\"}",
-        "name": "ios-icon-87.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/ios-icon-80.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-80.png\"}",
-        "name": "ios-icon-80.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/ios-icon-76.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-76.png\"}",
-        "name": "ios-icon-76.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/ios-icon-72.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-72.png\"}",
-        "name": "ios-icon-72.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/ios-icon-60.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-60.png\"}",
-        "name": "ios-icon-60.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/ios-icon-58.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-58.png\"}",
-        "name": "ios-icon-58.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/ios-icon-57.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-57.png\"}",
-        "name": "ios-icon-57.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/ios-icon-50.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-50.png\"}",
-        "name": "ios-icon-50.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/ios-icon-40.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-40.png\"}",
-        "name": "ios-icon-40.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/ios-icon-29.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-29.png\"}",
-        "name": "ios-icon-29.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/ios-icon-20.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"./assets/ios-icon-20.png\"}",
-        "name": "ios-icon-20.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/GizliYerKup (Sol).png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/GizliYerKup (Sol).png\",\"extension\":\".png\"}",
-        "name": "assets\\GizliYerKup (Sol).png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red Button_Idle.png",
+        "file": "assets/YenküpHikaye/Yenküphikaye1.png",
         "kind": "image",
         "metadata": "",
-        "name": "Red Button_Idle.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/673facf2cabe26813a9ac066e93c005e264c6222557999e56582a0fe73216f3f_Red Button_Idle.png",
-          "name": "Red Button_Idle.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red Button_Pressed.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Red Button_Pressed.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e3269fc6a93f1d6083564069b4d14c7e31df6bfc96d27f82c791d2210242315a_Red Button_Pressed.png",
-          "name": "Red Button_Pressed.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Blue Button_Idle.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Blue Button_Idle.png\",\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\Blue Button_Idle.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Blue Button_Pressed.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Blue Button_Pressed.png\",\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\Blue Button_Pressed.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Yellow Button_Idle.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Yellow Button_Idle.png\",\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\Yellow Button_Idle.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Yellow Button_Pressed.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Yellow Button_Pressed.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Türkiye.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Türkiye.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Birlesik Krallik.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Birlesik Krallik.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Ispanya.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Ispanya.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Çin.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Çin.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Hindistan.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Hindistan.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Red Button_Idle.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Red Button_Idle.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Kapa Button.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Kapa Button.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Kapa Button_Pressed.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Kapa Button_Pressed.png",
+        "name": "assets\\YenküpHikaye\\Yenküphikaye1.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Ev Button.png",
+        "file": "assets/YenküpHikaye/Yenküphikaye2.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Ev Button.png",
+        "name": "assets\\YenküpHikaye\\Yenküphikaye2.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Ev Button_Pressed.png",
+        "file": "assets/YenküpHikaye/Yenküphikaye3.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Ev Button_Pressed.png",
+        "name": "assets\\YenküpHikaye\\Yenküphikaye3.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Retry Button_Pressed.png",
+        "file": "assets/Ikon/desktop-icon-512.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Retry Button_Pressed.png",
+        "name": "assets\\Ikon\\desktop-icon-512.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/android-windowSplashScreenAnimatedIcon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\android-windowSplashScreenAnimatedIcon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/android-icon-192.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\android-icon-192.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/android-icon-144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\android-icon-144.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/android-icon-96.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\android-icon-96.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/android-icon-72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\android-icon-72.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/android-icon-48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\android-icon-48.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/android-icon-36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\android-icon-36.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/Yenküp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\Yenküp.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/ios-icon-1024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\ios-icon-1024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/ios-icon-180.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\ios-icon-180.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/ios-icon-167.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\ios-icon-167.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/ios-icon-152.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\ios-icon-152.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/ios-icon-120.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\ios-icon-120.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/ios-icon-114.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\ios-icon-114.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/ios-icon-100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\ios-icon-100.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/ios-icon-87.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\ios-icon-87.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/ios-icon-80.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\ios-icon-80.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/ios-icon-72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\ios-icon-72.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/ios-icon-76.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\ios-icon-76.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/ios-icon-60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\ios-icon-60.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/ios-icon-58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\ios-icon-58.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/ios-icon-57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\ios-icon-57.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/ios-icon-50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\ios-icon-50.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/ios-icon-40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\ios-icon-40.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/ios-icon-29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\ios-icon-29.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ikon/ios-icon-20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ikon\\ios-icon-20.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Pressed/Ev Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Pressed\\Ev Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Idle/Ev Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Idle\\Ev Button.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sinir/Yasak Alan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sinir\\Yasak Alan.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Müzik Button_Pressed.png",
+        "file": "assets/Sinir/TuglaYan.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Müzik Button_Pressed.png",
+        "name": "assets\\Sinir\\TuglaYan.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Müzik Button.png",
+        "file": "assets/Ev/EvÜst.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Müzik Button.png",
+        "name": "assets\\Ev\\EvÜst.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Debug Button_Pressed.png",
+        "file": "assets/Diken/Diken (1).png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Debug Button_Pressed.png",
+        "name": "assets\\Diken\\Diken (1).png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Debug Button.png",
+        "file": "assets/Diken/Diken (2).png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Debug Button.png",
+        "name": "assets\\Diken\\Diken (2).png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Web Button_Pressed.png",
+        "file": "assets/Diken/Diken (3).png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Web Button_Pressed.png",
+        "name": "assets\\Diken\\Diken (3).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Diken/Diken.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Diken\\Diken.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GizliYerküp/GizliYerKup (Sol).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GizliYerküp\\GizliYerKup (Sol).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GizliYerküp/GizliYerKup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GizliYerküp\\GizliYerKup.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tank/TankSSCB.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tank\\TankSSCB.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tank/TankABD.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tank\\TankABD.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tank/Tank Bullet 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tank\\Tank Bullet 3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tank/Tank Bullet 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tank\\Tank Bullet 4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ev/EvÖn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ev\\EvÖn.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ev/EvYan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Ev\\EvYan.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Idle/Debug Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Idle\\Debug Button.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Pressed/Debug Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Pressed\\Debug Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Idle/Retry Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Idle\\Retry Button.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Pressed/Retry Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Pressed\\Retry Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Idle/Müzik Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Idle\\Müzik Button.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Pressed/Müzik Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Pressed\\Müzik Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bayrak/Türkiye.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bayrak\\Türkiye.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bayrak/Çin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bayrak\\Çin.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Web Button.png",
+        "file": "assets/Bayrak/Ispanya.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Web Button.png",
+        "name": "assets\\Bayrak\\Ispanya.png",
         "smoothed": true,
         "userAdded": true
       },
       {
-        "file": "Muzik/pb_theme_pc_speaker.mp3",
+        "alwaysLoaded": false,
+        "file": "assets/Bayrak/Birlesik Krallik.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bayrak\\Birlesik Krallik.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bayrak/Hindistan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bayrak\\Hindistan.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Idle/Yellow Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Idle\\Yellow Button_Idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Pressed/Yellow Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Pressed\\Yellow Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Idle/Blue Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Idle\\Blue Button_Idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Pressed/Blue Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Pressed\\Blue Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Idle/Orange Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Idle\\Orange Button_Idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Pressed/Orange Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Pressed\\Orange Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Idle/Web Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Idle\\Web Button.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Pressed/Web Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Pressed\\Web Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rickroll/Rickroll2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Rickroll\\Rickroll2.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rickroll/Rickroll3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Rickroll\\Rickroll3.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rickroll/Rickroll.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Rickroll\\Rickroll.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/YenküpHikaye/Yenküphikaye4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\YenküpHikaye\\Yenküphikaye4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Muzik/huge-explosion-87823.mp3",
         "kind": "audio",
         "metadata": "",
-        "name": "Muzik\\pb_theme_pc_speaker.mp3",
+        "name": "assets\\Muzik\\huge-explosion-87823.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Muzik/mixkit-explosion-in-battle-2809.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Muzik\\mixkit-explosion-in-battle-2809.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Muzik/single-shot.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Muzik\\single-shot.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Muzik/Windows XP Critical Stop.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Muzik\\Windows XP Critical Stop.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/YenküpHikaye/Yenküphikaye5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\YenküpHikaye\\Yenküphikaye5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/YenküpHikaye/Yenküphikaye6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\YenküpHikaye\\Yenküphikaye6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/YenküpHikaye/Yenküphikaye7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\YenküpHikaye\\Yenküphikaye7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/YenküpHikaye/Yenküphikaye8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\YenküpHikaye\\Yenküphikaye8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/YenküpHikaye/Yenküphikaye9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\YenküpHikaye\\Yenküphikaye9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/YenküpHikaye/YenküpHikaye10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\YenküpHikaye\\YenküpHikaye10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/YenküpHikaye/Yenküphikaye11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\YenküpHikaye\\Yenküphikaye11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/YenküpHikaye/Yenküphikaye12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\YenküpHikaye\\Yenküphikaye12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/YenküpHikaye/Yenküphikaye13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\YenküpHikaye\\Yenküphikaye13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Muzik/creative-technology-showreel-241274.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Muzik\\creative-technology-showreel-241274.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Renk/Kirmizi.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Renk\\Kirmizi.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Renk/Sari.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Renk\\Sari.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Renk/MLYesil.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Renk\\MLYesil.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Renk/Camgöbegi.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Renk\\Camgöbegi.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Renk/Mor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Renk\\Mor.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Renk/Kahverengi.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Renk\\Kahverengi.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Renk/Siyah.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Dügme/Renk/Siyah.png\",\"extension\":\".png\"}",
+        "name": "assets\\Dügme\\Renk\\Siyah.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dügme/Renk/Zeytin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dügme\\Renk\\Zeytin.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Muzik/ñam-ñam-ñam-nom-nom-nom-roblox-sound-effect-made-with-Voicemod.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Muzik\\ñam-ñam-ñam-nom-nom-nom-roblox-sound-effect-made-with-Voicemod.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/YenküpKardes.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\YenküpKardes.png",
+        "smoothed": true,
         "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "0d3f4843e5ebb7af30fd80adf19a1c5a14164c1283f344991dc2aa14067a1262",
+      "name": "Ev_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\Dügme\\Idle\\Ev Button.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\Dügme\\Idle\\Ev Button.png",
+          "tiled": false,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 60,
+          "color": {
+            "b": 16,
+            "g": 38,
+            "r": 111
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 60,
+            "color": "111;38;16"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "assets\\Dügme\\Pressed\\Ev Button_Pressed.png",
+          "tiled": false,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Ev_Button"
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [],
@@ -876,7 +1211,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5468750000000006,
+        "zoomFactor": 0.41943397827590756,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -940,7 +1275,7 @@
           "height": 106,
           "keepRatio": true,
           "layer": "",
-          "name": "Çık",
+          "name": "Hikaye",
           "persistentUuid": "bcc2f25e-4178-42d8-b443-472f1a31a9da",
           "width": 362,
           "x": 472,
@@ -1017,7 +1352,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "assets\\Blue Button_Idle.png",
+              "texture": "assets\\Dügme\\Idle\\Blue Button_Idle.png",
               "tiled": false,
               "topMargin": 16,
               "width": 256
@@ -1027,7 +1362,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "assets\\Blue Button_Idle.png",
+              "texture": "assets\\Dügme\\Idle\\Blue Button_Idle.png",
               "tiled": false,
               "topMargin": 16,
               "width": 256
@@ -1072,7 +1407,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "assets\\Blue Button_Pressed.png",
+              "texture": "assets\\Dügme\\Pressed\\Blue Button_Pressed.png",
               "tiled": false,
               "topMargin": 32,
               "width": 256
@@ -1111,7 +1446,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "assets\\Yellow Button_Idle.png",
+              "texture": "assets\\Dügme\\Idle\\Yellow Button_Idle.png",
               "tiled": false,
               "topMargin": 16,
               "width": 256
@@ -1121,7 +1456,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "assets\\Yellow Button_Idle.png",
+              "texture": "assets\\Dügme\\Idle\\Yellow Button_Idle.png",
               "tiled": false,
               "topMargin": 16,
               "width": 256
@@ -1166,7 +1501,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "assets\\Yellow Button_Pressed.png",
+              "texture": "assets\\Dügme\\Pressed\\Yellow Button_Pressed.png",
               "tiled": false,
               "topMargin": 32,
               "width": 256
@@ -1235,7 +1570,7 @@
         },
         {
           "assetStoreId": "0d3f4843e5ebb7af30fd80adf19a1c5a14164c1283f344991dc2aa14067a1262",
-          "name": "Çık",
+          "name": "Hikaye",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -1265,7 +1600,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "assets\\Red Button_Idle.png",
+              "texture": "assets\\Dügme\\Idle\\Orange Button_Idle.png",
               "tiled": false,
               "topMargin": 16,
               "width": 256
@@ -1275,7 +1610,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "Red Button_Idle.png",
+              "texture": "assets\\Dügme\\Idle\\Orange Button_Idle.png",
               "tiled": false,
               "topMargin": 16,
               "width": 256
@@ -1285,7 +1620,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Çık",
+              "string": "Hikaye",
               "font": "",
               "textAlignment": "center",
               "characterSize": 60,
@@ -1308,7 +1643,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "Çık",
+                "text": "Hikaye",
                 "font": "",
                 "textAlignment": "center",
                 "characterSize": 60,
@@ -1320,7 +1655,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "Red Button_Pressed.png",
+              "texture": "assets\\Dügme\\Pressed\\Orange Button_Pressed.png",
               "tiled": false,
               "topMargin": 32,
               "width": 256
@@ -1359,7 +1694,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "assets\\Web Button.png",
+              "texture": "assets\\Dügme\\Idle\\Web Button.png",
               "tiled": false,
               "topMargin": 16,
               "width": 256
@@ -1369,7 +1704,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "assets\\Web Button.png",
+              "texture": "assets\\Dügme\\Idle\\Web Button.png",
               "tiled": false,
               "topMargin": 16,
               "width": 256
@@ -1414,7 +1749,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "assets\\Web Button_Pressed.png",
+              "texture": "assets\\Dügme\\Pressed\\Web Button_Pressed.png",
               "tiled": false,
               "topMargin": 32,
               "width": 256
@@ -1476,7 +1811,7 @@
             "objectName": "Ögretici"
           },
           {
-            "objectName": "Çık"
+            "objectName": "Hikaye"
           },
           {
             "objectName": "WebFragman"
@@ -1549,7 +1884,7 @@
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "Çık",
+                "Hikaye",
                 "ButtonFSM",
                 ""
               ]
@@ -1558,9 +1893,11 @@
           "actions": [
             {
               "type": {
-                "value": "Quit"
+                "value": "Scene"
               },
               "parameters": [
+                "",
+                "\"Hikaye\"",
                 ""
               ]
             }
@@ -1694,7 +2031,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.661760773329037,
+        "zoomFactor": 0.32978948989959855,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1709,6 +2046,9 @@
             },
             {
               "name": "TuglaDuvar"
+            },
+            {
+              "name": "Ev"
             }
           ]
         },
@@ -1717,9 +2057,6 @@
           "objects": [
             {
               "name": "Yasak_Alan"
-            },
-            {
-              "name": "RickROLL"
             },
             {
               "name": "ABDTank"
@@ -1740,6 +2077,9 @@
           "objects": [
             {
               "name": "Hareketli_Diken_Üst_Sol"
+            },
+            {
+              "name": "DaireliDönen_Diken_Orta"
             },
             {
               "name": "ABDMermi"
@@ -1804,8 +2144,8 @@
           "name": "SirinKare",
           "persistentUuid": "7afd74bd-7ffe-40e9-8a02-5b1468df21dd",
           "width": 100,
-          "x": 1392,
-          "y": 291,
+          "x": -1,
+          "y": 147,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1820,8 +2160,8 @@
           "name": "Joystick_Siyah",
           "persistentUuid": "7b7a60bf-ef1e-44e5-a424-5f71d6704bbe",
           "width": 0,
-          "x": 628,
-          "y": 628,
+          "x": 642,
+          "y": 677,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1921,23 +2261,6 @@
           "x": 502,
           "y": 356,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 121,
-          "keepRatio": true,
-          "layer": "",
-          "name": "RickROLL",
-          "persistentUuid": "fff1fe6e-ff6d-4259-8741-a3a14ca5845b",
-          "width": 116,
-          "x": 877,
-          "y": 1804,
-          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4579,14 +4902,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 48,
-          "height": 116,
+          "depth": 46,
+          "height": 115,
           "keepRatio": true,
           "layer": "UI",
           "name": "Retry_Button",
           "persistentUuid": "ee5c87cc-9d91-4def-8790-bc46f4a321d2",
-          "width": 108,
-          "x": 918,
+          "width": 104,
+          "x": 921,
           "y": 23,
           "zOrder": 14,
           "numberProperties": [],
@@ -4613,15 +4936,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 49,
-          "height": 109,
+          "depth": 51,
+          "height": 113,
           "keepRatio": true,
           "layer": "UI",
           "name": "Debug_Button",
           "persistentUuid": "2be28f40-295e-488d-aae1-1542dfe8c481",
-          "width": 99,
-          "x": 1029,
-          "y": 21,
+          "width": 103,
+          "x": 1047,
+          "y": 20,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -4637,9 +4960,180 @@
           "name": "Müzik_Button",
           "persistentUuid": "48f4ab53-7f22-4f75-8435-bc2cffc5442b",
           "width": 106,
-          "x": 1127,
-          "y": 20,
+          "x": 1172,
+          "y": 23,
           "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 179,
+          "customSize": true,
+          "depth": 98,
+          "height": 98,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ev",
+          "persistentUuid": "cbffb3ea-8acb-432a-bd87-1d9bf8bf91f5",
+          "width": 98,
+          "x": -126,
+          "y": 92,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 100,
+          "height": 43,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Cati",
+          "persistentUuid": "2d139b22-24de-44c3-9bbc-16773674221b",
+          "width": 46,
+          "x": -89,
+          "y": 117,
+          "z": 50,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 92,
+          "keepRatio": true,
+          "layer": "",
+          "name": "DaireliDönen_Diken_Orta",
+          "persistentUuid": "d2955555-f059-49e4-8b95-6dd0f7e9caa2",
+          "width": 92,
+          "x": 1553,
+          "y": 1072,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 51,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Kirmizi",
+          "persistentUuid": "39ab2593-901d-4174-b3a2-50d5b30c391d",
+          "width": 51,
+          "x": 500,
+          "y": 50,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 51,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Sari",
+          "persistentUuid": "e2123d71-00cf-460c-9c73-9979910ccd5a",
+          "width": 51,
+          "x": 549,
+          "y": 49,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 50,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "MLYesil",
+          "persistentUuid": "069fba36-7843-4942-a89b-dff580d29ded",
+          "width": 50,
+          "x": 600,
+          "y": 50,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 50,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Siyah",
+          "persistentUuid": "21494c15-d966-427c-ae71-0af71fc97ff2",
+          "width": 50,
+          "x": 650,
+          "y": 50,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 50,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Zeytin",
+          "persistentUuid": "41af2041-45e3-41ff-824b-2382a1e37c59",
+          "width": 50,
+          "x": 750,
+          "y": 50,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 50,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Kahverengi",
+          "persistentUuid": "5ea86f5f-5584-474e-af6d-3bf4c75070fc",
+          "width": 50,
+          "x": 700,
+          "y": 50,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 50,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Kardes",
+          "persistentUuid": "93cf5c4f-7fca-4495-a3fa-66f72133b2e6",
+          "width": 50,
+          "x": -100,
+          "y": 200,
+          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5104,155 +5598,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "RickROLL",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "EllipseMovement",
-              "type": "EllipseMovement::EllipseMovement",
-              "RadiusX": 1000,
-              "RadiusY": 800,
-              "LoopDuration": 6,
-              "InitialTurningLeft": true,
-              "InitialDirectionAngle": 0,
-              "ShouldRotate": false,
-              "RotationOffset": 0,
-              "CenterX": 0,
-              "CenterY": 0,
-              "MovementAngle": 0,
-              "OldX": 2.0247e-320,
-              "OldY": 2.0247e-320
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.5,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Ricroll.jpg",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 473,
-                            "y": 0
-                          },
-                          {
-                            "x": 473,
-                            "y": 266
-                          },
-                          {
-                            "x": 0,
-                            "y": 266
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Rickroll2.jpg",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 473,
-                            "y": 0
-                          },
-                          {
-                            "x": 473,
-                            "y": 266
-                          },
-                          {
-                            "x": 0,
-                            "y": 266
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Rickroll3.jpg",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 473,
-                            "y": 0
-                          },
-                          {
-                            "x": 473,
-                            "y": 266
-                          },
-                          {
-                            "x": 0,
-                            "y": 266
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "Hareketli_Diken_Üst_Sol",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -5289,7 +5634,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Diken (1).png",
+                      "image": "assets\\Diken\\Diken (1).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5325,7 +5670,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Diken (3).png",
+                      "image": "assets\\Diken\\Diken (2).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5361,7 +5706,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Diken (2).png",
+                      "image": "assets\\Diken\\Diken (3).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5397,7 +5742,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Diken (3).png",
+                      "image": "assets\\Diken\\Diken.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5458,7 +5803,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Yasak Alan.png",
+                      "image": "assets\\Sinir\\Yasak Alan.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5537,7 +5882,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\TankABD.png",
+                      "image": "assets\\Tank\\TankABD.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5609,7 +5954,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tank Bullet 3.png",
+                      "image": "assets\\Tank\\Tank Bullet 3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5688,7 +6033,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\TankSSCB.png",
+                      "image": "assets\\Tank\\TankSSCB.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5926,7 +6271,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\GizliYerKup (Sol).png",
+                      "image": "assets\\GizliYerküp\\GizliYerKup (Sol).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5975,7 +6320,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\GizliYerKup.png",
+                      "image": "assets\\GizliYerküp\\GizliYerKup.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6028,13 +6373,13 @@
             "depth": 100,
             "enableTextureTransparency": false,
             "facesOrientation": "Y",
-            "frontFaceResourceName": "assets\\TuglaYan.png",
-            "backFaceResourceName": "assets\\TuglaYan.png",
+            "frontFaceResourceName": "assets\\Sinir\\TuglaYan.png",
+            "backFaceResourceName": "assets\\Sinir\\TuglaYan.png",
             "backFaceUpThroughWhichAxisRotation": "X",
-            "leftFaceResourceName": "assets\\TuglaYan.png",
-            "rightFaceResourceName": "assets\\TuglaYan.png",
-            "topFaceResourceName": "assets\\TuglaYan.png",
-            "bottomFaceResourceName": "assets\\TuglaYan.png",
+            "leftFaceResourceName": "assets\\Sinir\\TuglaYan.png",
+            "rightFaceResourceName": "assets\\Sinir\\TuglaYan.png",
+            "topFaceResourceName": "assets\\Sinir\\TuglaYan.png",
+            "bottomFaceResourceName": "assets\\Sinir\\TuglaYan.png",
             "frontFaceVisible": true,
             "backFaceVisible": false,
             "leftFaceVisible": true,
@@ -6082,7 +6427,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Tank Bullet 4.png",
+                      "image": "assets\\Tank\\Tank Bullet 4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6185,13 +6530,13 @@
             "depth": 100,
             "enableTextureTransparency": false,
             "facesOrientation": "Y",
-            "frontFaceResourceName": "assets\\TuglaYan.png",
-            "backFaceResourceName": "assets\\TuglaYan.png",
+            "frontFaceResourceName": "assets\\Sinir\\TuglaYan.png",
+            "backFaceResourceName": "assets\\Sinir\\TuglaYan.png",
             "backFaceUpThroughWhichAxisRotation": "X",
-            "leftFaceResourceName": "assets\\TuglaYan.png",
-            "rightFaceResourceName": "assets\\TuglaYan.png",
-            "topFaceResourceName": "assets\\TuglaDelik.png",
-            "bottomFaceResourceName": "assets\\TuglaDelik.png",
+            "leftFaceResourceName": "assets\\Sinir\\TuglaYan.png",
+            "rightFaceResourceName": "assets\\Sinir\\TuglaYan.png",
+            "topFaceResourceName": "assets\\Sinir\\Yasak Alan.png",
+            "bottomFaceResourceName": "assets\\Sinir\\Yasak Alan.png",
             "frontFaceVisible": true,
             "backFaceVisible": false,
             "leftFaceVisible": true,
@@ -6239,7 +6584,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "assets\\Retry Button.png",
+              "texture": "assets\\Dügme\\Idle\\Retry Button.png",
               "tiled": false,
               "topMargin": 16,
               "width": 256
@@ -6249,7 +6594,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "assets\\Retry Button.png",
+              "texture": "assets\\Dügme\\Idle\\Retry Button.png",
               "tiled": false,
               "topMargin": 16,
               "width": 256
@@ -6294,101 +6639,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "assets\\Retry Button_Pressed.png",
-              "tiled": false,
-              "topMargin": 32,
-              "width": 256
-            }
-          }
-        },
-        {
-          "assetStoreId": "0d3f4843e5ebb7af30fd80adf19a1c5a14164c1283f344991dc2aa14067a1262",
-          "name": "Ev_Button",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "ButtonFSM",
-              "type": "ButtonStates::ButtonFSM",
-              "ShouldCheckHovering": true,
-              "State": "Idle",
-              "TouchId": 0,
-              "TouchIsInside": false,
-              "MouseIsInside": false,
-              "Index": 2.0247e-320
-            }
-          ],
-          "content": {
-            "LeftPadding": 16,
-            "RightPadding": 16,
-            "PressedLabelOffsetY": 10,
-            "BottomPadding": 32,
-            "TopPadding": 16,
-            "HoveredFadeOutDuration": 0.25
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 32,
-              "height": 106,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "assets\\Ev Button.png",
-              "tiled": false,
-              "topMargin": 16,
-              "width": 256
-            },
-            "Idle": {
-              "bottomMargin": 32,
-              "height": 106,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "assets\\Ev Button.png",
-              "tiled": false,
-              "topMargin": 16,
-              "width": 256
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "",
-              "font": "",
-              "textAlignment": "center",
-              "characterSize": 60,
-              "color": {
-                "b": 16,
-                "g": 38,
-                "r": 111
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "",
-                "font": "",
-                "textAlignment": "center",
-                "characterSize": 60,
-                "color": "111;38;16"
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 16,
-              "height": 106,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "assets\\Ev Button_Pressed.png",
+              "texture": "assets\\Dügme\\Pressed\\Retry Button_Pressed.png",
               "tiled": false,
               "topMargin": 32,
               "width": 256
@@ -6427,7 +6678,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "assets\\Debug Button.png",
+              "texture": "assets\\Dügme\\Idle\\Debug Button.png",
               "tiled": false,
               "topMargin": 16,
               "width": 256
@@ -6437,7 +6688,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "assets\\Debug Button.png",
+              "texture": "assets\\Dügme\\Idle\\Debug Button.png",
               "tiled": false,
               "topMargin": 16,
               "width": 256
@@ -6482,7 +6733,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "assets\\Debug Button_Pressed.png",
+              "texture": "assets\\Dügme\\Pressed\\Debug Button_Pressed.png",
               "tiled": false,
               "topMargin": 32,
               "width": 256
@@ -6510,7 +6761,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "assets\\Müzik Button.png",
+              "texture": "assets\\Dügme\\Idle\\Müzik Button.png",
               "tiled": false,
               "topMargin": 16,
               "width": 256
@@ -6520,7 +6771,7 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "assets\\Müzik Button.png",
+              "texture": "assets\\Dügme\\Idle\\Müzik Button.png",
               "tiled": false,
               "topMargin": 16,
               "width": 256
@@ -6565,12 +6816,754 @@
               "height": 106,
               "leftMargin": 16,
               "rightMargin": 16,
-              "texture": "assets\\Müzik Button_Pressed.png",
+              "texture": "assets\\Dügme\\Pressed\\Müzik Button_Pressed.png",
               "tiled": false,
               "topMargin": 32,
               "width": 256
             }
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Ev",
+          "type": "Scene3D::Cube3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "width": 100,
+            "height": 100,
+            "depth": 100,
+            "enableTextureTransparency": false,
+            "facesOrientation": "Y",
+            "frontFaceResourceName": "assets\\Ev\\EvÜst.png",
+            "backFaceResourceName": "assets\\Ev\\EvYan.png",
+            "backFaceUpThroughWhichAxisRotation": "X",
+            "leftFaceResourceName": "assets\\Ev\\EvÖn.png",
+            "rightFaceResourceName": "assets\\Ev\\EvYan.png",
+            "topFaceResourceName": "assets\\Ev\\EvYan.png",
+            "bottomFaceResourceName": "assets\\Ev\\EvYan.png",
+            "frontFaceVisible": true,
+            "backFaceVisible": false,
+            "leftFaceVisible": true,
+            "rightFaceVisible": true,
+            "topFaceVisible": true,
+            "bottomFaceVisible": true,
+            "frontFaceResourceRepeat": false,
+            "backFaceResourceRepeat": false,
+            "leftFaceResourceRepeat": false,
+            "rightFaceResourceRepeat": false,
+            "topFaceResourceRepeat": false,
+            "bottomFaceResourceRepeat": false,
+            "materialType": "Basic"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Cati",
+          "type": "Scene3D::Cube3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "width": 100,
+            "height": 100,
+            "depth": 100,
+            "enableTextureTransparency": false,
+            "facesOrientation": "Y",
+            "frontFaceResourceName": "assets\\Ev\\EvÜst.png",
+            "backFaceResourceName": "assets\\Ev\\EvÜst.png",
+            "backFaceUpThroughWhichAxisRotation": "X",
+            "leftFaceResourceName": "assets\\Ev\\EvÜst.png",
+            "rightFaceResourceName": "assets\\Ev\\EvÜst.png",
+            "topFaceResourceName": "assets\\Ev\\EvÜst.png",
+            "bottomFaceResourceName": "assets\\Ev\\EvÜst.png",
+            "frontFaceVisible": true,
+            "backFaceVisible": false,
+            "leftFaceVisible": true,
+            "rightFaceVisible": true,
+            "topFaceVisible": true,
+            "bottomFaceVisible": true,
+            "frontFaceResourceRepeat": false,
+            "backFaceResourceRepeat": false,
+            "leftFaceResourceRepeat": false,
+            "rightFaceResourceRepeat": false,
+            "topFaceResourceRepeat": false,
+            "bottomFaceResourceRepeat": false,
+            "materialType": "Basic"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "DaireliDönen_Diken_Orta",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "EllipseMovement",
+              "type": "EllipseMovement::EllipseMovement",
+              "RadiusX": 700,
+              "RadiusY": 700,
+              "LoopDuration": 4,
+              "InitialTurningLeft": false,
+              "InitialDirectionAngle": 100,
+              "ShouldRotate": true,
+              "RotationOffset": 49,
+              "CenterX": 0,
+              "CenterY": 0,
+              "MovementAngle": 0,
+              "OldX": 2.0247e-320,
+              "OldY": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "Diken",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Diken\\Diken (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 5
+                          },
+                          {
+                            "x": 54,
+                            "y": 5
+                          },
+                          {
+                            "x": 54,
+                            "y": 61
+                          },
+                          {
+                            "x": 1,
+                            "y": 61
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Diken\\Diken (2).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 5
+                          },
+                          {
+                            "x": 54,
+                            "y": 5
+                          },
+                          {
+                            "x": 54,
+                            "y": 61
+                          },
+                          {
+                            "x": 1,
+                            "y": 61
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Diken\\Diken (3).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 5
+                          },
+                          {
+                            "x": 54,
+                            "y": 5
+                          },
+                          {
+                            "x": 54,
+                            "y": 61
+                          },
+                          {
+                            "x": 1,
+                            "y": 61
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Diken\\Diken.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 5
+                          },
+                          {
+                            "x": 54,
+                            "y": 5
+                          },
+                          {
+                            "x": 54,
+                            "y": 61
+                          },
+                          {
+                            "x": 1,
+                            "y": 61
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Kirmizi",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Dügme\\Renk\\Kirmizi.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 638,
+                            "y": 0
+                          },
+                          {
+                            "x": 638,
+                            "y": 638
+                          },
+                          {
+                            "x": 0,
+                            "y": 638
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Sari",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Dügme\\Renk\\Sari.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 638,
+                            "y": 0
+                          },
+                          {
+                            "x": 638,
+                            "y": 638
+                          },
+                          {
+                            "x": 0,
+                            "y": 638
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "MLYesil",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Dügme\\Renk\\MLYesil.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 638,
+                            "y": 0
+                          },
+                          {
+                            "x": 638,
+                            "y": 638
+                          },
+                          {
+                            "x": 0,
+                            "y": 638
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Siyah",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "assets\\Dügme\\Renk\\Siyah",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Dügme\\Renk\\Siyah.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 638,
+                            "y": 0
+                          },
+                          {
+                            "x": 638,
+                            "y": 638
+                          },
+                          {
+                            "x": 0,
+                            "y": 638
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Zeytin",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Dügme\\Renk\\Zeytin.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 638,
+                            "y": 0
+                          },
+                          {
+                            "x": 638,
+                            "y": 638
+                          },
+                          {
+                            "x": 0,
+                            "y": 638
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Kahverengi",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Dügme\\Renk\\Kahverengi.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 638,
+                            "y": 0
+                          },
+                          {
+                            "x": 638,
+                            "y": 638
+                          },
+                          {
+                            "x": 0,
+                            "y": 638
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Kardes",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\YenküpKardes.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 638,
+                            "y": 0
+                          },
+                          {
+                            "x": 638,
+                            "y": 638
+                          },
+                          {
+                            "x": 0,
+                            "y": 638
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6578,6 +7571,9 @@
         "children": [
           {
             "objectName": "SirinKare"
+          },
+          {
+            "objectName": "GizliYerküp"
           },
           {
             "objectName": "Kiymali_Pide"
@@ -6592,22 +7588,46 @@
             "objectName": "DelikliDuvar"
           },
           {
+            "objectName": "Ev"
+          },
+          {
+            "objectName": "Cati"
+          },
+          {
             "objectName": "Joystick_Siyah"
           },
           {
             "objectName": "Retry_Button"
           },
           {
-            "objectName": "Ev_Button"
-          },
-          {
             "objectName": "Debug_Button"
           },
           {
-            "objectName": "Rekor"
+            "objectName": "Müzik_Button"
+          },
+          {
+            "objectName": "Kirmizi"
+          },
+          {
+            "objectName": "Sari"
+          },
+          {
+            "objectName": "MLYesil"
+          },
+          {
+            "objectName": "Siyah"
+          },
+          {
+            "objectName": "Kahverengi"
+          },
+          {
+            "objectName": "Zeytin"
           },
           {
             "objectName": "Yenmis_Pide"
+          },
+          {
+            "objectName": "Rekor"
           },
           {
             "objectName": "Imha"
@@ -6628,10 +7648,7 @@
             "objectName": "Hareketli_Diken_Üst_Sol"
           },
           {
-            "objectName": "GizliYerküp"
-          },
-          {
-            "objectName": "RickROLL"
+            "objectName": "DaireliDönen_Diken_Orta"
           },
           {
             "objectName": "SSCBTank"
@@ -6646,7 +7663,7 @@
             "objectName": "SSCBMermi"
           },
           {
-            "objectName": "Müzik_Button"
+            "objectName": "Kardes"
           }
         ]
       },
@@ -6665,7 +7682,14 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -6673,6 +7697,43 @@
               },
               "parameters": [
                 "Yasak_Alan"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 224,
+            "g": 16,
+            "r": 189,
+            "textB": 255,
+            "textG": 255,
+            "textR": 255
+          },
+          "comment": "Müzik"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Muzik\\creative-technology-showreel-241274.mp3",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -6733,7 +7794,7 @@
               },
               "parameters": [
                 "",
-                "Muzik\\ñam-ñam-ñam-nom-nom-nom-roblox-sound-effect-made-with-Voicemod.mp3",
+                "assets\\Muzik\\ñam-ñam-ñam-nom-nom-nom-roblox-sound-effect-made-with-Voicemod.mp3",
                 "",
                 "",
                 ""
@@ -6818,7 +7879,7 @@
               },
               "parameters": [
                 "",
-                "Muzik\\huge-explosion-87823.mp3",
+                "assets\\Muzik\\huge-explosion-87823.mp3",
                 "",
                 "",
                 ""
@@ -6923,67 +7984,10 @@
               },
               "parameters": [
                 "",
-                "Muzik\\Windows XP Critical Stop.mp3",
+                "assets\\Muzik\\Windows XP Critical Stop.mp3",
                 "",
                 "",
                 ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 224,
-            "g": 16,
-            "r": 189,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "RICKROLL"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "SirinKare",
-                "RickROLL",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "RickROLL",
-                    "Muzik\\rickroll-but-short.mp3",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
               ]
             }
           ]
@@ -7129,14 +8133,167 @@
           "actions": [
             {
               "type": {
-                "value": "PlaySound"
+                "value": "UnloadSound"
               },
               "parameters": [
                 "",
-                "Muzik\\pb_theme_pc_speaker.mp3",
-                "yes",
-                "",
+                "assets\\Muzik\\creative-technology-showreel-241274.mp3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Kirmizi",
+                "ButtonFSM",
                 ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "SirinKare",
+                "\"255;0;0\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Sari",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "SirinKare",
+                "\"255;255;255\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "MLYesil",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "SirinKare",
+                "\"0;255;0\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Siyah",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "SirinKare",
+                "\"0;0;255\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Zeytin",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "SirinKare",
+                "\"110;110;110\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Kahverengi",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "SirinKare",
+                "\"119;51;0\""
               ]
             }
           ]
@@ -7213,7 +8370,7 @@
                   },
                   "parameters": [
                     "",
-                    "Muzik\\single-shot.mp3",
+                    "assets\\Muzik\\single-shot.mp3",
                     "",
                     "",
                     ""
@@ -7337,7 +8494,7 @@
                   },
                   "parameters": [
                     "",
-                    "Muzik\\mixkit-explosion-in-battle-2809.wav",
+                    "assets\\Muzik\\mixkit-explosion-in-battle-2809.wav",
                     "",
                     "",
                     ""
@@ -7550,18 +8707,6 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "GizliYerküp",
-                "TuglaDuvar",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "inverted": true,
                 "value": "Distance"
               },
@@ -7581,16 +8726,32 @@
               "parameters": [
                 "GizliYerküp"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "RotateTowardAngle"
+                "value": "CollisionNP"
               },
               "parameters": [
                 "GizliYerküp",
-                "0",
-                "45",
+                "TuglaDuvar",
+                "",
+                "",
                 ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "GizliYerküp"
               ]
             }
           ]
@@ -7778,7 +8939,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4633111824513976,
+        "zoomFactor": 0.5653158055126307,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7827,8 +8988,8 @@
           "layer": "",
           "name": "Birlesik_Krallik",
           "persistentUuid": "1be17b75-dacf-4e08-9b65-28cbf9525c66",
-          "width": 121,
-          "x": 378,
+          "width": 113,
+          "x": 386,
           "y": 310,
           "zOrder": 3,
           "numberProperties": [],
@@ -7890,14 +9051,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 48,
-          "height": 172,
+          "height": 133,
           "keepRatio": true,
           "layer": "",
-          "name": "Kapa_Button",
-          "persistentUuid": "676ce9ed-5a02-4112-8be5-3413c677a7e9",
-          "width": 170,
-          "x": 34,
-          "y": 14,
+          "name": "Ev_Button",
+          "persistentUuid": "fbeb1ffe-b066-42cd-9447-13690e0d56e8",
+          "width": 123,
+          "x": 8,
+          "y": 10,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -7966,7 +9127,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Türkiye.png",
+                      "image": "assets\\Bayrak\\Türkiye.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8026,7 +9187,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Birlesik Krallik.png",
+                      "image": "assets\\Bayrak\\Birlesik Krallik.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8086,7 +9247,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Ispanya.png",
+                      "image": "assets\\Bayrak\\Ispanya.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8146,7 +9307,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Çin.png",
+                      "image": "assets\\Bayrak\\Çin.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8166,16 +9327,16 @@
                             "y": 0
                           },
                           {
-                            "x": 46,
+                            "x": 271,
                             "y": 0
                           },
                           {
-                            "x": 46,
-                            "y": 46
+                            "x": 271,
+                            "y": 233
                           },
                           {
                             "x": 0,
-                            "y": 46
+                            "y": 233
                           }
                         ]
                       ]
@@ -8206,7 +9367,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Hindistan.png",
+                      "image": "assets\\Bayrak\\Hindistan.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8245,100 +9406,6 @@
               ]
             }
           ]
-        },
-        {
-          "assetStoreId": "0d3f4843e5ebb7af30fd80adf19a1c5a14164c1283f344991dc2aa14067a1262",
-          "name": "Kapa_Button",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "ButtonFSM",
-              "type": "ButtonStates::ButtonFSM",
-              "ShouldCheckHovering": true,
-              "State": "Idle",
-              "TouchId": 0,
-              "TouchIsInside": false,
-              "MouseIsInside": false,
-              "Index": 2.0247e-320
-            }
-          ],
-          "content": {
-            "LeftPadding": 16,
-            "RightPadding": 16,
-            "PressedLabelOffsetY": 10,
-            "BottomPadding": 32,
-            "TopPadding": 16,
-            "HoveredFadeOutDuration": 0.25
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 32,
-              "height": 106,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "assets\\Kapa Button.png",
-              "tiled": false,
-              "topMargin": 16,
-              "width": 256
-            },
-            "Idle": {
-              "bottomMargin": 32,
-              "height": 106,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "assets\\Kapa Button.png",
-              "tiled": false,
-              "topMargin": 16,
-              "width": 256
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "",
-              "font": "",
-              "textAlignment": "center",
-              "characterSize": 60,
-              "color": {
-                "b": 16,
-                "g": 38,
-                "r": 111
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "",
-                "font": "",
-                "textAlignment": "center",
-                "characterSize": 60,
-                "color": "111;38;16"
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 16,
-              "height": 106,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "assets\\Kapa Button_Pressed.png",
-              "tiled": false,
-              "topMargin": 32,
-              "width": 256
-            }
-          }
         }
       ],
       "objectsFolderStructure": {
@@ -8361,9 +9428,6 @@
           },
           {
             "objectName": "Hindistan"
-          },
-          {
-            "objectName": "Kapa_Button"
           }
         ]
       },
@@ -8376,7 +9440,7 @@
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "Kapa_Button",
+                "Ev_Button",
                 "ButtonFSM",
                 ""
               ]
@@ -8474,6 +9538,675 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 0,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Hikaye",
+      "name": "Hikaye",
+      "r": 0,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 0,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.49508400737488995,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 716,
+          "keepRatio": true,
+          "layer": "",
+          "name": "YenküpHikaye",
+          "persistentUuid": "52787c30-a119-4af7-ae32-e2c7239e4616",
+          "width": 1141,
+          "x": 142,
+          "y": -4,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 148,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ev_Button",
+          "persistentUuid": "4c762637-62d3-4a1c-8fd9-25f9fa9de110",
+          "width": 145,
+          "x": -2,
+          "y": 9,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "YenküpHikaye",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Hikaye",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\YenküpHikaye\\Yenküphikaye1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 431
+                          },
+                          {
+                            "x": 0,
+                            "y": 431
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\YenküpHikaye\\Yenküphikaye2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 431
+                          },
+                          {
+                            "x": 0,
+                            "y": 431
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\YenküpHikaye\\Yenküphikaye3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 431
+                          },
+                          {
+                            "x": 0,
+                            "y": 431
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\YenküpHikaye\\Yenküphikaye4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 431
+                          },
+                          {
+                            "x": 0,
+                            "y": 431
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\YenküpHikaye\\Yenküphikaye5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 431
+                          },
+                          {
+                            "x": 0,
+                            "y": 431
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\YenküpHikaye\\Yenküphikaye6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 431
+                          },
+                          {
+                            "x": 0,
+                            "y": 431
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\YenküpHikaye\\Yenküphikaye7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 431
+                          },
+                          {
+                            "x": 0,
+                            "y": 431
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\YenküpHikaye\\Yenküphikaye8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 431
+                          },
+                          {
+                            "x": 0,
+                            "y": 431
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\YenküpHikaye\\Yenküphikaye9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 431
+                          },
+                          {
+                            "x": 0,
+                            "y": 431
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\YenküpHikaye\\YenküpHikaye10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 431
+                          },
+                          {
+                            "x": 0,
+                            "y": 431
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\YenküpHikaye\\Yenküphikaye11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 431
+                          },
+                          {
+                            "x": 0,
+                            "y": 431
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\YenküpHikaye\\Yenküphikaye12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 431
+                          },
+                          {
+                            "x": 0,
+                            "y": 431
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\YenküpHikaye\\Yenküphikaye13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 0
+                          },
+                          {
+                            "x": 723,
+                            "y": 431
+                          },
+                          {
+                            "x": 0,
+                            "y": 431
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "YenküpHikaye"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Ev_Button",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Lobi\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
         }
       ]
     }
